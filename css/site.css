@@ -8,12 +8,16 @@ header {
     background-image: url(../img/produtos/bake-1003685_960_720.jpg);
     background-position: center;
     background-size: cover;
-    text-align: center;
-    padding: 60px;
+    height: auto;
+    min-height: 200px;
+    /* text-align: center; */
+    /* padding: 60px; */
 }
 
 /* Navegação */
 nav {
+    position: fixed;
+    top: 0px;
     height: auto;
     min-height: 60px;
 }
@@ -68,4 +72,11 @@ section{
 #propaganda1, #propaganda2, #propaganda3, #propaganda4{
     padding: 0;
     background-image: url(../img/propaganda/p200x1000-01-2.jpg);
+}
+
+.logo{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
 }
