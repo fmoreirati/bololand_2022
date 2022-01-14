@@ -82,3 +82,14 @@ section{
     left: 20px;
     z-index: 1000;
 }
+
+.produtos{
+    border-radius: 5px;
+    border: solid 1px #bbb
+}
+
+.produtos input, .produtos button{
+    border-radius: 5px;
+    border: solid 1px #bbb;
+    padding: 5px;
+}
